@@ -1,0 +1,23 @@
+---
+---
+
+// Bootstrap overrides (before import)
+$font-size-base: 16px;
+
+@import"../assets/stylesheets/bootstrap";
+
+// Don't wrap highlight code blocks.
+.highlight {
+  pre code * {
+    white-space: nowrap;
+  }
+
+  pre {
+    overflow-x: auto;
+    word-wrap: normal;
+  }
+
+  pre code {
+    white-space: pre;
+  }
+}

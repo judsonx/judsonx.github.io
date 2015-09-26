@@ -1,0 +1,12 @@
+# Site settings
+title: JRW Blog
+email: judson.weissert@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  The purpose of this blog is to be determined.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jrwblog.twistaz.net" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username: judsonx
+
+# Build settings
+markdown: kramdown

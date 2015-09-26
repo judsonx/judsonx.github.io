@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="{{ "/assets/javascripts/bootstrap.js" | prepend: site.baseurl }}"></script>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
