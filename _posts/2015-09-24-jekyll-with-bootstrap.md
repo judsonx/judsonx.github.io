@@ -27,7 +27,7 @@ I created ``assets/stylesheets/style.scss`` with the following content:
 ---
 ---
 
-@import"../assets/stylesheets/bootstrap";
+@import "../assets/stylesheets/bootstrap";
 {% endhighlight %}
 
 This will result in the generation of ``_site/assets/stylesheets/style.css``.
@@ -118,7 +118,7 @@ I ended up with the following content in ``assets/stylesheets/style.scss``:
 // Bootstrap overrides (before import)
 $font-size-base: 16px;
 
-@import"../assets/stylesheets/bootstrap";
+@import "../assets/stylesheets/bootstrap";
 
 // Don't wrap highlight code blocks.
 .highlight {
